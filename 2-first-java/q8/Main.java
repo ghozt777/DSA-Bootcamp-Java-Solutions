@@ -15,6 +15,6 @@ class Main{
     }
     static double getDollarBillsBaby(int rupees){
         return 0.014*rupees;
-        // this is as of today's date may not ne vaalid when the program is running
+        // this is as of today's date may not be valid when the program is running
     }
 }
