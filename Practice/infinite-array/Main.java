@@ -28,6 +28,8 @@ class Main{
             end += 2*(end-start+1);
             start = newStart;
         }
+        
+        
         while(start<=end){
             mid = start + (end-start)/2;
             if(target>arr[mid]) start = mid + 1;
