@@ -46,7 +46,7 @@ class Main{
     index:    0  1  2  3  4  5  6  7  8
     -------------------------------------------
     value:  { 1 ,1 ,2 ,2 ,3 ,4 ,4 ,5 ,5 }
-                        ☝️ : TARGET  
+                         ☝🏻 : TARGET  
 
     as seen from the table all the pairs before the target element start with a even index and ends with an odd index
     Eg: `1` occurs in a pair and starts at an even index (0) and ens at an odd index (1) hence the target element lies to its right 
