@@ -2,9 +2,9 @@
 
 class Main{
     public static void main(String[] args) {
-        int[] arr = {1,1,2,2,3,4,4,8,8};
+        int[] arr = {1,1,2,2,3,4,4,8,8}; // modify this array accordingly
         int ans = singleNonDuplicate(arr);
-        System.out.println(ans);
+        System.out.println(ans); // Expected ans : 3 
     }
     static int singleNonDuplicate(int[] arr){
         // corner cases
