@@ -1,3 +1,4 @@
+package searching.hard.q5;
 // Leetcode Link: https://leetcode.com/problems/split-array-largest-sum/
 
 // Diver Code
