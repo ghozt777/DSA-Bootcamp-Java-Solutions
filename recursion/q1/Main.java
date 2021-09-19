@@ -4,17 +4,13 @@ public class Main {
         int[] arr = {1,2,3,4,5};
          printTriangle(arr);
     }
-    static void printTriangle(int[] A){
-         // Base case
-        if (A.length < 1)
-            return;
-        int[] temp = new int[A.length - 1];
-        for (int i = 0; i < A.length - 1; i++)
-        {
-            int x = A[i] + A[i + 1];
-            temp[i] = x;
+    static void printTriangle(int[] arr){
+        if(arr.length==0) return ;
+        int[] temp = new int[arr.length-1];
+        for(int i=0;i<arr.length-1;i++){
+            temp[i] = arr[i] + arr[i+1];
         }
         printTriangle(temp);
-        System.out.println(Arrays.toString(A));
+        System.out.println(Arrays.toString(arr));
     }
 }
